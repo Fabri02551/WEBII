@@ -1,0 +1,76 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Additional Styles for this page */
+  
+  input[type="password"][name="confirm_password"] {
+    margin-bottom: 30px; /* add some extra space before the submit button */
+  }
